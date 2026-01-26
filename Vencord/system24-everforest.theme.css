@@ -86,7 +86,7 @@ body {
     --colors: on; /* off: discord default colors, on: everforest custom colors */
 
     /* text colors */
-    --text-0: #D3C6AA; /* text on colored elements */
+    --text-0: #5D6B66; /* text on colored elements */
     --text-1: #D3C6AA; /* other normally white text */
     --text-2: #D3C6AA; /* headings and important text */
     --text-3: #D3C6AA; /* normal text */
