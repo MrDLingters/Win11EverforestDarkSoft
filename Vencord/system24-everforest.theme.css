@@ -91,7 +91,7 @@ body {
     --text-2: #D3C6AA; /* headings and important text */
     --text-3: #D3C6AA; /* normal text */
     --text-4: #9AA79D; /* icon buttons and channels */
-    --text-5: #859289; /* muted channels/chats and timestamps */
+    --text-5: #D3C6AA; /* muted channels/chats and timestamps */
 
     /* background and dark colors */
     --bg-1: #7A8478; /* dark buttons when clicked */
