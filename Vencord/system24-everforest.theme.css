@@ -94,9 +94,9 @@ body {
     --text-5: #859289; /* muted channels/chats and timestamps - Grey 1 */
 
     /* background and dark colors */
-    --bg-1: #2E383C; /* dark buttons when clicked - BG 1 */
-    --bg-2: #374145; /* dark buttons - BG 2 */
-    --bg-3: #374145; /* spacing, secondary elements - BG 3 */
+    --bg-1: #333C43; /* dark buttons when clicked - BG 1 */
+    --bg-2: #3A464C; /* dark buttons - BG 2 */
+    --bg-3: #3A464C; /* spacing, secondary elements - BG 3 */
     --bg-4: #48584E; /* main background color - Background Green */
     --hover: var(--bg-2); /* channels and buttons when hovered */
     --active: var(--bg-1); /* channels and buttons when clicked or selected */
