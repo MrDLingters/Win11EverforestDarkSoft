@@ -86,29 +86,29 @@ body {
     --colors: on; /* off: discord default colors, on: everforest custom colors */
 
     /* text colors */
-    --text-0: #D3C6AA; /* text on colored elements */
-    --text-1: #D3C6AA; /* other normally white text */
-    --text-2: #D3C6AA; /* headings and important text */
-    --text-3: #D3C6AA; /* normal text */
-    --text-4: #D3C6AA; /* icon buttons and channels */
-    --text-5: #D3C6AA; /* muted channels/chats and timestamps */
+    --text-0: var(--bg-4); /* text on colored elements */
+    --text-1: #D3C6AA; /* other normally white text - Foreground */
+    --text-2: #D3C6AA; /* headings and important text - Foreground */
+    --text-3: #D3C6AA; /* normal text - Foreground */
+    --text-4: #9AA79D; /* icon buttons and channels - Grey 2 */
+    --text-5: #859289; /* muted channels/chats and timestamps - Grey 1 */
 
     /* background and dark colors */
-    --bg-1: #7A8478; /* dark buttons when clicked */
-    --bg-2: #5D6B66; /* dark buttons */
-    --bg-3: #5D6B66; /* spacing, secondary elements */
-    --bg-4: #48584E; /* main background color */
+    --bg-1: #2E383C; /* dark buttons when clicked - BG 1 */
+    --bg-2: #374145; /* dark buttons - BG 2 */
+    --bg-3: #374145; /* spacing, secondary elements - BG 3 */
+    --bg-4: #48584E; /* main background color - Background Green */
     --hover: var(--bg-2); /* channels and buttons when hovered */
     --active: var(--bg-1); /* channels and buttons when clicked or selected */
-    --active-2: oklch(0.43 0.0172 231.6); /* extra state for transparent buttons */
+    --active-2: #576268; /* extra state for transparent buttons - BG 4 */
     --message-hover: var(--hover); /* messages when hovered */
 
     /* accent colors */
-    --accent-1: #D3C6AA; /* links and other accent text */
-    --accent-2: #979082; /* small accent elements */
-    --accent-3: #979082; /* accent buttons */
-    --accent-4: #979082; /* accent buttons when hovered */
-    --accent-5: #979082; /* accent buttons when clicked */
+    --accent-1: var(--green-1); /* links and other accent text */
+    --accent-2: var(--green-2); /* small accent elements */
+    --accent-3: var(--green-3); /* accent buttons */
+    --accent-4: var(--green-4); /* accent buttons when hovered */
+    --accent-5: var(--green-5); /* accent buttons when clicked */
     --accent-new: var(--red-2); /* stuff that's normally red like mute/deafen buttons */
     --mention: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 90%) 40%, transparent); /* background of messages that mention you */
     --mention-hover: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 95%) 40%, transparent); /* background of messages that mention you when hovered */
@@ -123,39 +123,39 @@ body {
     --offline: var(--text-4); /* change to #82838b for default offline color */
 
     /* border colors */
-    --border-light: #979082; /* general light border color */
-    --border: #979082; /* general normal border color */
-    --border-hover: #D3C6AA; /* border color of panels when hovered */
-    --button-border: #D3C6AA; /* neutral border color of buttons */
+    --border-light: #979082; /* general light border color - Foreground */
+    --border: #979082; /* general normal border color - Foreground */
+    --border-hover: #D3C6AA; /* border color of panels when hovered - Foreground */
+    --button-border: hsl(220, 0%, 100%, 0.1); /* neutral border color of buttons */
 
-    /* base colors */
-    --red-1: #59464C;
+    /* base colors - Everforest Dark Soft palette */
+    --red-1: #E67E80;
     --red-2: var(--red-1);
     --red-3: var(--red-1);
-    --red-4: #59464C;
-    --red-5: #5C3F4F;
+    --red-4: #E69875; /* Orange */
+    --red-5: #DBBC7F; /* Yellow */
 
-    --green-1: #979082;
+    --green-1: #A7C080;
     --green-2: var(--green-1);
     --green-3: var(--green-1);
-    --green-4: #A7C080;
-    --green-5: #5D6B66;
+    --green-4: #83C092; /* Aqua */
+    --green-5: #7FBBB3; /* Blue */
 
-    --blue-1: oklch(0.75 0.0631 185.49);
+    --blue-1: #7FBBB3;
     --blue-2: var(--blue-1);
     --blue-3: var(--blue-1);
-    --blue-4: oklch(0.6 0.0631 185.49);
-    --blue-5: oklch(0.42 0.0345 231.32);
+    --blue-4: #83C092; /* Aqua */
+    --blue-5: #A7C080; /* Green */
 
-    --yellow-1: oklch(0.81 0.0863 83.7);
+    --yellow-1: #DBBC7F;
     --yellow-2: var(--yellow-1);
     --yellow-3: var(--yellow-1);
-    --yellow-4: oklch(0.61 0.0863 83.7);
-    --yellow-5: oklch(0.41 0.0146 101.82);
+    --yellow-4: #E69875; /* Orange */
+    --yellow-5: #E67E80; /* Red */
 
-    --purple-1: #E69875;
+    --purple-1: #D699B6;
     --purple-2: var(--purple-1);
     --purple-3: var(--purple-1);
-    --purple-4: #E69875;
-    --purple-5: var(--red-5);
+    --purple-4: #E67E80; /* Red */
+    --purple-5: #E69875; /* Orange */
 }
