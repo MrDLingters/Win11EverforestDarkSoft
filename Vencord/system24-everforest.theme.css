@@ -1,5 +1,5 @@
 /**
- * @name system24 (everforest)
+ * @name system24 (everforest) V1
  * @description a tui-style discord theme.
  * @author refact0r
  * @version 2.0.0
@@ -86,21 +86,21 @@ body {
     --colors: on; /* off: discord default colors, on: everforest custom colors */
 
     /* text colors */
-    --text-0: var(--bg-4); /* text on colored elements */
-    --text-1: #D3C6AA; /* other normally white text - Foreground */
-    --text-2: #D3C6AA; /* headings and important text - Foreground */
-    --text-3: #D3C6AA; /* normal text - Foreground */
-    --text-4: #9AA79D; /* icon buttons and channels - Grey 2 */
-    --text-5: #859289; /* muted channels/chats and timestamps - Grey 1 */
+    --text-0: #D3C6AA; /* text on colored elements */
+    --text-1: #D3C6AA; /* other normally white text */
+    --text-2: #D3C6AA; /* headings and important text */
+    --text-3: #D3C6AA; /* normal text */
+    --text-4: #9AA79D; /* icon buttons and channels */
+    --text-5: #859289; /* muted channels/chats and timestamps */
 
     /* background and dark colors */
-    --bg-1: #333C43; /* dark buttons when clicked - BG 1 */
-    --bg-2: #3A464C; /* dark buttons - BG 2 */
-    --bg-3: #48584E; /* spacing, secondary elements - BG 3 */
-    --bg-4: #48584E; /* main background color - Background Green */
+    --bg-1: #7A8478; /* dark buttons when clicked */
+    --bg-2: #5D6B66; /* dark buttons */
+    --bg-3: #5D6B66; /* spacing, secondary elements */
+    --bg-4: #48584E; /* main background color */
     --hover: var(--bg-2); /* channels and buttons when hovered */
     --active: var(--bg-1); /* channels and buttons when clicked or selected */
-    --active-2: #576268; /* extra state for transparent buttons - BG 4 */
+    --active-2: oklch(0.43 0.0172 231.6); /* extra state for transparent buttons */
     --message-hover: var(--hover); /* messages when hovered */
 
     /* accent colors */
@@ -122,7 +122,7 @@ body {
     --streaming: var(--purple-2); /* change to ##9147ff for default */
     --offline: var(--text-4); /* change to #82838b for default offline color */
 
-    /* border colors */
+     /* border colors */
     --border-light: #979082; /* general light border color - Foreground */
     --border: #979082; /* general normal border color - Foreground */
     --border-hover: #D3C6AA; /* border color of panels when hovered - Foreground */
