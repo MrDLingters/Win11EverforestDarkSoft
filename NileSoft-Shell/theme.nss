@@ -27,8 +27,8 @@ theme
 
 		back
 		{
-			select = #D3C6AA7a
-			select-disabled = #D3C6AA2b
+			select = #7A8478
+			select-disabled = #7A84782b
 		}
 	}
 
@@ -44,7 +44,7 @@ theme
 	{
 		enabled = false
 		size = 2
-		color = #D3C6AA7a
+		color = #D3C6AA
 		opacity = 100
 		radius = 0
 	}
