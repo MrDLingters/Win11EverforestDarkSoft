@@ -19,7 +19,7 @@ bars:
       dark_mode: false
       round_corners: false
     window_flags:
-      always_on_top: true
+      always_on_top: false
       windows_app_bar: true
       hide_on_fullscreen: true
     dimensions:
@@ -33,7 +33,7 @@ bars:
     widgets:
       left:
         [
-          "home",
+          "win_button",
           "komorebi_workspaces",
           "komorebi_active_layout",
           "lines",
@@ -66,9 +66,9 @@ widgets:
       - { title: "Documents", path: "C:\\Users\\Darren\\Documents"}
       - { title: "Pictures", path: "C:\\Users\\Darren\\Pictures"}
       - { title: "Videos", path: "C:\\Users\\Darren\\Videos"}
-      system_menu: true
+      system_menu: false
       power_menu: false
-      blur: true
+      blur: false
       round_corners: false
       round_corners_type: "normal"
       distance: 5
@@ -173,7 +173,7 @@ widgets:
           offset_left: 0
           thumbnail_size: 90
           thumbnail_corner_radius: 6
-          max_title_size: 60
+          max_title_size: 55
           max_artist_size: 50
           show_source: true
         media_menu_icons:
