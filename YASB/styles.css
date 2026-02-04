@@ -585,3 +585,8 @@
 .separator-widget .widget-container .label{
     color: var(--Text);
 }
+
+.custom-widget .widget-container .label {
+    padding: 0px 8px;
+    margin-right: -8px; 
+}
