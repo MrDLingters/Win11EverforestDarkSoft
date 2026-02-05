@@ -171,8 +171,8 @@ widgets:
           direction: "up"
           offset_top: 5
           offset_left: 0
-          thumbnail_size: 90
-          thumbnail_corner_radius: 6
+          thumbnail_size: 100
+          thumbnail_corner_radius: 0
           max_title_size: 55
           max_artist_size: 50
           show_source: true
@@ -291,7 +291,7 @@ widgets:
       hide_empty: true
       container_padding:
         top: 0
-        left: 2
+        left: 0
         bottom: 0
         right: 0
   github:
