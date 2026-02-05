@@ -333,8 +333,8 @@
 }
 .media-menu .artist {
   font-size: 13px;
-  color: var(--Text);
-  margin-top: 5px;
+  color: var(--Text2);
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 .media-menu .source {
@@ -393,17 +393,19 @@
   font-family: Arial;
   font-weight: bold;
   color: var(--Text);
-  margin-top: 12px;
+  margin-top: 10px;
+  margin-bottom: 5px;
   min-width: 100px;
 }
 .media-menu .progress-slider {
-  height: 10px;
-  border-radius: 3px;
-  color: var(--Text);
+  height: 5px;
+  border-radius: 0px;
+  background-color: var(--hover);
 }
 .media-menu .progress-slider::groove {
   height: 4px;
   border-radius: 3px;
+  color: var(--hover);
 }
 .media-menu .progress-slider::groove:hover {
   height: 6px;
@@ -445,11 +447,10 @@
 .power-menu-widget .label {
 	color: var(--Text);
     font-size: 16px;
+    padding: 0px 8px;
+    margin-left: -8px;
 }
 
-.power-menu-widget .app-container {
-    padding: 0px 8px;
-}
 
 /*POWER MENU POPUP*/
 .uptime {
@@ -493,11 +494,9 @@
 }
 .cava-widget {
     background-color: var(--bg);
+    margin-right: -8px;
 }
 
-.dark .cava-widget {
-    background-color: var(--bg);
-}
 
 /*SYSTEM TRAY*/
 .systray {
