@@ -518,6 +518,7 @@
 }
 
 .taskbar-widget {
+    margin-left: -6px;
 }
 
 .taskbar-widget .app-container {
@@ -530,7 +531,6 @@
     border-bottom: 2px solid;
     border-color: var(--Text);
     margin-top: 2px;
-    
 }
 
 .taskbar-widget .app-container.foreground .app-title:hover {
