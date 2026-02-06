@@ -494,6 +494,7 @@
 }
 .cava-widget {
     background-color: var(--bg);
+    margin-right: 2px;
 }
 
 
