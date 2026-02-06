@@ -291,7 +291,7 @@ widgets:
       hide_empty: true
       container_padding:
         top: 0
-        left: 0
+        left: 2
         bottom: 0
         right: 0
   github:
