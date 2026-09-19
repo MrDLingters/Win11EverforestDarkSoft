@@ -1,4 +1,5 @@
 # Everforest Dark Soft theme for Windows 11
+### For YASB use latest version of [Akira theme](https://github.com/MrDLingters/Akira_YASB) with chosen color scheme.
 ![Screenshot 2026-01-24 212304](https://github.com/user-attachments/assets/7d15883d-598d-4511-9f16-267e61ddcac3)
 ![Screenshot 2026-01-24 151815](https://github.com/user-attachments/assets/fecacf2f-f1e2-41b3-bf60-a524a266cd14)
 ![Screenshot 2026-01-24 231813](https://github.com/user-attachments/assets/28546f3a-9492-4bd6-86bd-a84a2f1ac08f)
